@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-data_folder = "C:\Users\cfa\Desktop\asd\quantium-starter-repo\data"
+data_folder = "C:\\Users\\cfa\\Desktop\\asd\\quantium-starter-repo\\data"
 
 csv_files = [os.path.join(data_folder, f) for f in os.listdir(data_folder) if f.endswith(".csv")]
 
